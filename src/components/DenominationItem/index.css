@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.list-item {
+  list-style-type: none;
+  width: 48%;
+  margin: 20px;
+}
+.rupees {
+  background-color: #585076;
+  border: 2px solid #c7d2fe;
+  border-radius: 4px;
+  color: #c7d2fe;
+  font-size: 25px;
+  font-family: 'Roboto';
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+}

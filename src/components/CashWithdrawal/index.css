@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.cash-withdrawal-container {
+  background-color: #150b3e;
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+  padding-bottom: 8px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 15px;
+}
+.name-container {
+  display: flex;
+  flex-direction: row;
+}
+.initial-container {
+  border: 0px;
+  background-color: #c7d2fe;
+
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+.initial {
+  color: #7c3aed;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+.describe {
+  margin-left: 8px;
+  color: #d4d2db;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .describe {
+    margin-left: 16px;
+    font-size: 20px;
+  }
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.describe1 {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 300;
+}
+.head {
+  color: #c7d2fe;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 400;
+}
+.describe2 {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 200;
+  align-self: flex-end;
+}
+.head2 {
+  color: #c7d2fe;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 400;
+}
+.denomination-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding-left: 0px;
+}
